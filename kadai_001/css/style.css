@@ -1,0 +1,107 @@
+/*================
+ PC、スマホ共通スタイル
+=================*/
+* {
+  box-sizing: border-box;
+}
+body {
+/*  max-width: 1080px;*/
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  vertical-align:bottom;
+}
+
+img{
+  max-width:100%;
+  height:auto;
+}
+
+
+/* ヘッダー */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  max-width:980px;
+  margin: 0 auto;
+}
+.logo{
+  margin:0;
+  padding:10px;
+  border:solid 1px #000;
+  font-size: 34px;
+  line-height:1;
+}
+.nav{
+  font-size: 34px;
+}
+.nav ul{
+  display: flex;
+  gap:18px;
+  list-style-type:none;
+}
+.nav a{
+  color:#000;
+  text-decoration:none;
+}
+
+
+.article{
+  max-width:980px;
+  margin: 0 auto;
+}
+
+.section{
+  margin:80px 0;
+}
+.section-title{
+  margin:0 0 45px;
+  font-size: 34px;
+  text-align:center;
+}
+
+/*about*/
+.about-container{
+  display:flex;
+  justify-content:center;
+  
+  gap:50px;
+}
+.about-photo{}
+.about-photo img{
+  border-radius:50%;
+}
+
+
+.about-detail{}
+.about-detail h3 {
+  font-size: 24px;
+}
+
+/* works */
+.works-container{
+  display:flex;
+  justify-content:space-between;
+}
+.works-item{
+  width:300px;
+}
+.works-item img{
+/*  clip-path: circle(50%);*/
+  
+  margin-bottom:20px;
+}
+
+
+
+
+/* footer */
+.footer 
+  max-width:980px;
+  margin: 0 auto;
+  text-align:center;
+}
+
