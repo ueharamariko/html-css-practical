@@ -99,9 +99,31 @@ img{
 
 
 /* footer */
-.footer 
+.footer {
+
   max-width:980px;
   margin: 0 auto;
   text-align:center;
+  display:flex;
+  justify-content:center;
 }
 
+*スマホ用*/
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 28px;
+    }
+    nav li{
+        font-size: 21px;
+        margin: 0 10px;
+    }
+    h2{
+        font-size: 28px;
+        padding: 30px 0 20px 0;
+    }
+    .item{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+}
