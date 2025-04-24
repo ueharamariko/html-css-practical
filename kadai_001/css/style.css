@@ -109,21 +109,29 @@ img{
 }
 
 *スマホ用*/
-@media screen and (max-width: 767px){
-    h1{
-        font-size: 28px;
-    }
-    nav li{
-        font-size: 21px;
-        margin: 0 10px;
-    }
-    h2{
-        font-size: 28px;
-        padding: 30px 0 20px 0;
-    }
-    .item{
-        width: 100%;
-        text-align: center;
-        padding-bottom: 40px;
-    }
+
+/* 横幅が767pxまでの場合 */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+  
+  h2 {
+    padding: 30px 0 20px;
+    font-size: 28px;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  nav a {
+    font-size: 21px;
+  }
+
+  .item {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
 }
