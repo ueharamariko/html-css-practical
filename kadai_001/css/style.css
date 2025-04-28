@@ -123,7 +123,7 @@ img{
     flex: 1; /* 必要に応じて調整 */
     margin: 0 10px; /* 必要に応じてスペースを追加 */
   }
-}
+
     
 h1 {
   font-size: 28px;
@@ -198,5 +198,4 @@ h1 {
     text-align: center;
     padding-bottom: 40px;
   }
-} 
   
